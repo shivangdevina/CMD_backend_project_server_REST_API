@@ -1,0 +1,26 @@
+GET http://localhost:3000/subscribers
+
+####
+GET http://localhost:3000/subscribers/684dd048b7e7574e58695926
+
+####
+
+POST  http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"AmazingPerson", 
+    "subscribedToChannel": "progresS_coDe"
+}
+
+###
+DELETE http://localhost:3000/subscribers/684dd048b7e7574e58695926
+
+####
+
+PATCH http://localhost:3000/subscribers/684de89a30911f3ed20ed633
+Content-Type: application/json
+
+{
+    "name": "YoYoShivangSingh"
+}
